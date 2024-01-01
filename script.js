@@ -1,5 +1,7 @@
 //your JS code here. If required.
 const body = document.querySelector("body");
 body.addEventListener("DOMContentLoaded", function (e) {
-	console.log("DOM load success");
+	// const ele = document.createElement("p");
+	body.textContent = "DOM load success";
+	// body.append()
 })
